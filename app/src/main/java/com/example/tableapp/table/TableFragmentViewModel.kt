@@ -4,7 +4,7 @@ import android.util.Log
 import androidx.lifecycle.ViewModel
 
 class TableFragmentViewModel: ViewModel() {
-    var participantsAmount: Int = 15
+    var participantsAmount: Int = 7
     var filledCells: MutableList<MutableList<Boolean>> = mutableListOf()
     init {
         createFilledCells()
